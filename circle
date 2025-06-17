@@ -1,0 +1,10 @@
+#include<bits/stdc++.h>
+ 
+using namespace std;
+int main()
+{  float r;
+     cin >> r;
+ 
+     cout  << setprecision(9)<<fixed<< 3.14159 * r * r << endl;
+    
+}
