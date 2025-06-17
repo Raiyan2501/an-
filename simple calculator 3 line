@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+  
+    int n, m;
+    int a, b ,c;
+    cin >> n >> m;
+    a= n + m;
+    b= n * m;
+    c= n - m;
+    cout<< n <<" + "<< m <<" = "<<a<<endl;
+    cout<< n <<" * "<< m <<" = "<<b<<endl;
+    cout<< n <<" - "<< m <<" = "<<c<<endl;
+    return 0;
+}
